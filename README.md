@@ -1,2 +1,3 @@
-# hokusai-greatwave
-An animated version of the picture "The great wave off Kanagawa"
+# HOKUSAI - The great wave off Kanagawa
+## Animated version
+![The great wave off Kanagawa](./assets/bg.jpg)
