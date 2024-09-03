@@ -50,49 +50,49 @@ body, html {
 }
 
 #wave-layer1 {
-  background-image: url('./assets/wave_1.png');
+  background-image: url('./assets/Wave_1.png');
   z-index: 8;
   animation-direction: alternate;
 }
 
 #wave-layer2 {
-  background-image: url('./assets/boat_1.png');
+  background-image: url('./assets/Boat_1.png');
   z-index: 7;
   animation-direction: normal;
 }
 
 #wave-layer3 {
-  background-image: url('./assets/wave_2.png');
+  background-image: url('./assets/Wave_2.png');
   z-index: 6;
   animation-direction: alternate-reverse;
 } 
 
 #wave-layer4 {
-  background-image: url('./assets/wave_3.png');
+  background-image: url('./assets/Wave_3.png');
   z-index: 5;
   animation-direction: alternate;
 } 
 
 #wave-layer5 {
-  background-image: url('./assets/boat_2.png');
+  background-image: url('./assets/Boat_2.png');
   z-index: 4;
   animation-direction: alternate;
 } 
 
 #wave-layer6 {
-  background-image: url('./assets/wave_4.png');
+  background-image: url('./assets/Wave_4.png');
   z-index: 3;
   animation-direction: alternate-reverse;
 } 
 
 #wave-layer7 {
-  background-image: url('./assets/wave_5.png');
+  background-image: url('./assets/Wave_5.png');
   z-index: 2;
   animation-direction: alternate;
 } 
 
 #wave-layer8 {
-  background-image: url('./assets/boat_3.png');
+  background-image: url('./assets/Boat_3.png');
   z-index: 1;
   animation-direction: reverse;
 } 
