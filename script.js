@@ -8,12 +8,14 @@ let startX, scrollLeft;
 
 const startDragging = (e) => {
     isDragging = true;
+    waveLayers.forEach(layer => layer.classList.add('no-wiggle'));
     startX = (e.pageX || e.touches[0].pageX) - waveLayers[0].offsetLeft;
     scrollLeft = parseInt(getComputedStyle(waveLayers[0]).backgroundPositionX, 10) || 0;
 };
 
 const stopDragging = () => {
     isDragging = false;
+    waveLayers.forEach(layer => layer.classList.remove('no-wiggle'));
 };
 
 const dragMove = (e) => {
