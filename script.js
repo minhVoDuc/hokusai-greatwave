@@ -31,7 +31,7 @@ const dragMove = (e) => {
 
         // Limit the sliding to the bounds of the background image
         // const minPosition = Math.min(0, containerWidth - backgroundSize);
-        const minPosition = -1*Math.abs(1200-containerWidth);
+        const minPosition = -1*Math.abs(1000-containerWidth);
         const maxPosition = 0;
         if (newPosition > maxPosition) {
             newPosition = maxPosition;
